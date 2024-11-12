@@ -1,5 +1,7 @@
 # Complete E-commerce Website Development Guide
 
+ Commited ok
+
 ## 1. Planning and Prerequisites
 ### 1.1 Project Planning
 - Define target audience and business goals
