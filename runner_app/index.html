@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Runner App</title>
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Runner App</h1>
+    <div id="app">
+      <div id="main-menu">
+        <button onclick="showPaceCalculator()">Calcular Ritmo (min/km - min/milla)</button>
+        <button onclick="showTotalTimeCalculator()">Calcular Tiempo Total</button>
+      </div>
+      <div id="calculator" class="hidden">
+        <h2 id="calc-title"></h2>
+        <div id="input-fields"></div>
+        <button onclick="calculate()">Calcular</button>
+        <div id="result"></div>
+        <button onclick="backToMenu()">Volver al Menú</button>
+      </div>
+    </div>
+  </div>
+  <!-- Enlace al archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

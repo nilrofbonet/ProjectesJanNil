@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 10%;
+            background-color: #e0e0e0;
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero-text h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 20px;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        .cta-subtext {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .hero-image {
+            width: 40%;
+            background-color: #ccc;
+            height: 200px;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 40px 10%;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .features h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .feature-item {
+            display: inline-block;
+            width: 30%;
+            background-color: #f8f8f8;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 6px;
+            text-align: left;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            padding: 40px 10%;
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+
+        .testimonial {
+            display: inline-block;
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 6px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Product Section */
+        .product-section {
+            display: flex;
+            padding: 40px 10%;
+            background-color: #fff;
+            justify-content: space-between;
+        }
+
+        .product-details {
+            width: 60%;
+        }
+
+        .product-price {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+
+        .product-options {
+            display: flex;
+            gap: 10px;
+            font-size: 14px;
+        }
+
+        .add-to-cart {
+            background-color: #000;
+            color: #fff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        /* Steps Section */
+        .steps {
+            padding: 40px 10%;
+            text-align: center;
+        }
+
+        .steps h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .step-item {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            background-color: #f4f4f9;
+            border-radius: 6px;
+            margin: 10px;
+        }
+
+        /* Secondary CTA */
+        .secondary-cta {
+            padding: 40px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #e0e0e0;
+        }
+
+        .cta-text {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .cta-button-secondary {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        Landing page basic model
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <p>⭐⭐⭐⭐⭐ Over 50,000+ Sold</p>
+            <h1>nil feo.</h1>
+            <a href="#" class="cta-button">CTA</a>
+            <p class="cta-subtext">Try it 100% risk-free</p>
+        </div>
+        <div class="hero-image"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Choose Us</h2>
+        <div class="feature-item">Feature 1</div>
+        <div class="feature-item">Feature 2</div>
+        <div class="feature-item">Feature 3</div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="testimonial">"Amazing product!" - Jane</div>
+        <div class="testimonial">"Worth every penny!" - John</div>
+        <div class="testimonial">"Best investment ever!" - Alex</div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="product-section">
+        <div class="product-details">
+            <h2>Lorem Ipsum Dolor Sit Amet</h2>
+            <p>Detailed product information goes here. It's designed to highlight key selling points.</p>
+            <p class="product-price">$220.00 <span style="text-decoration: line-through;">$250.00</span></p>
+            <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </section>
+
+    <!-- Steps Section -->
+    <section class="steps">
+        <h2>See how [Product] makes cleaning easy.</h2>
+        <div class="step-item">Step 1</div>
+        <div class="step-item">Step 2</div>
+        <div class="step-item">Step 3</div>
+    </section>
+
+    <!-- Secondary CTA Section -->
+    <section class="secondary-cta">
+        <div class="cta-text">Try it now, 100% risk-free.</div>
+        <a href="#" class="cta-button-secondary">Choose Your Bundle</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        Footer
+    </footer>
+
+</body>
+</html>
